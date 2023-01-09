@@ -22,4 +22,41 @@
 
 * Open up a terminal on your machine.
 
-  * 🔑 We use the terminal command `cd` to navigate to the directory where we want the repository located.
+.cd ./Documents/GitHub/BOOTCAMP
+golna@Golnaz MINGW64 ~/Documents/GitHub/BOOTCAMP (master)
+
+golna@Golnaz MINGW64 ~/Documents/GitHub/BOOTCAMP (master)
+$ git clone https://github.com/golzolfa/first-day-demo.git
+Cloning into 'first-day-demo'...
+remote: Enumerating objects: 6, done.
+remote: Counting objects: 100% (6/6), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 6 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (6/6), done.
+
+golna@Golnaz MINGW64 ~/Documents/GitHub/BOOTCAMP (master)
+$ cd first-day-demo
+
+golna@Golnaz MINGW64 ~/Documents/GitHub/BOOTCAMP/first-day-demo (main)
+$ touch index.html
+
+golna@Golnaz MINGW64 ~/Documents/GitHub/BOOTCAMP/first-day-demo (main)
+$ git add -A
+
+golna@Golnaz MINGW64 ~/Documents/GitHub/BOOTCAMP/first-day-demo (main)
+$ git commit -m "first commit"
+[main 0e90a47] first commit
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 index.html
+
+golna@Golnaz MINGW64 ~/Documents/GitHub/BOOTCAMP/first-day-demo (main)
+$ git push origin main
+info: please complete authentication in your browser...
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 290 bytes | 290.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/golzolfa/first-day-demo.git
+   84ed7ee..0e90a47  main -> main
